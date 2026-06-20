@@ -6,6 +6,17 @@ __pycache__/
 *.db
 *.sqlite3
 
-# Виртуальное окружение (на всякий случай, если папка venv внутри проекта)
+# Виртуальное окружение
 venv/
 .venv/
+
+# Переменные окружения (секреты)
+.env
+
+# Docker
+.dockerignore
+
+# Runtime data
+data/
+logs/
+bot_*.log
